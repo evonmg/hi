@@ -1,14 +1,9 @@
-body {
-    background-image: url("smileyface.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:center;
-    margin:0;
-}
-
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -61,10 +56,11 @@ body {
 }
 
 .pagetitle{
+    width:100%;
     float:left;
     text-align:left;
-    padding:30px;
-    margin: 10px;
+    padding: 30px;
+    margin-top: 30px;
 }
 
 .text::after{
