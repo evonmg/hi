@@ -1,0 +1,73 @@
+body {
+    background-image: url("smileyface.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+h1 {
+    background-color:fuchsia;
+    border: 5px solid tomato;
+    border-style:inset;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    background-color:azure;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    width:33.33%;
+    float:left;
+    background-color: seagreen;
+}
+
+.random {
+    margin: 50px 50px 50px 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color:bisque;
+}
+
+.flex-container .box {
+    background-color:darkgray;
+    width: 50%;
+    text-align:center;
+    margin: 10px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:darksalmon;
+    text-align: left;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: inline-block;
+    background-color:antiquewhite;
+    font-size: 20px;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color:burlywood;
+}
+
+.nav .active {
+    background-color:indianred;
+}
