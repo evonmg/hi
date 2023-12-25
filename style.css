@@ -67,6 +67,12 @@ body {
     padding: 10px;
 }
 
+.text::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .dropbtn {
     background-color: antiquewhite;
     color: black;
