@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+/*things to figure out: how to remove file extension from url.
+*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +20,6 @@ body {
 }
 
 .nav {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     background-color:darksalmon;
@@ -31,10 +33,12 @@ body {
     font-size: 20px;
     padding: 20px 20px;
     text-decoration: none;
+    color:black;
 }
 
 .nav a:hover {
-    background-color:burlywood;
+    background-color:darkslategrey;
+    color:white;
 }
 
 .nav .active {
@@ -51,20 +55,71 @@ body {
 .flex-container .box {
     background-color:darkgray;
     width: 50%;
-    text-align:center;
-    margin: 10px;
+    text-align:justify;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .pagetitle{
     width:100%;
     float:left;
     text-align:left;
-    padding: 30px;
-    margin-top: 30px;
+    padding: 10px;
 }
 
-.text::after{
-    content: "";
-    display: table;
-    clear: both;
+.dropbtn {
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: darkslategray;
+    color: white;
+}
+
+.surprise-trigger {
+    display: block;
+    color: white;
+    background-color: red;
+}
+
+.surprise-text {
+    display: none;
+    color:fuchsia;
+    background-color:thistle;
+    font-family: fantasy;
+}
+
+.surprise-trigger:hover .surprise-text {
+    display: block;
+    margin:0px;
 }
